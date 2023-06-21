@@ -1,0 +1,95 @@
+.modal-toolbar {
+  --background: var(--ion-color-secondary);
+  --padding-top: 1.6rem;
+}
+
+.icon-close {
+  font-size: 2rem;
+}
+
+.main-content {
+  background: var(--ion-color-dark-contrast);
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  margin-top: 2.5rem;
+  height: 610px;
+}
+
+.progress {
+  position: relative;
+  background: var(--ion-color-light-tint);
+  border-radius: 20px;
+  height: 8px;
+  margin-bottom: 0.5rem;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset-block: 0;
+    width: 70%;
+    background: var(--ion-color-dark);
+    border-radius: inherit;
+  }
+}
+
+.tracker {
+  margin-top: 2rem;
+  div {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5rem;
+  }
+
+  ion-icon {
+    margin-right: 0.2rem;
+  }
+
+  p {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+
+  ion-label {
+    font-size: 0.9rem;
+  }
+
+  ion-col {
+    background: var(--ion-color-tertiary);
+    padding: 1rem;
+    border-radius: 10px;
+  }
+}
+
+.overview {
+  margin-top: 2rem;
+
+  p {
+    font-size: 0.9rem;
+    line-height: 1.6;
+  }
+}
+
+.members-connected {
+  margin-top: 2rem;
+}
+
+.avater {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+  object-fit: cover;
+}
+
+.avater::part(image) {
+  border-radius: inherit;
+}
+
+.add {
+  background: var(--ion-color-light-tint);
+  max-height: 50px;
+  max-width: 50px !important;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

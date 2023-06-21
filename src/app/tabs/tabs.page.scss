@@ -1,1 +1,16 @@
+ion-tab-button {
+  color: var(--ion-color-medium);
+  transition: color 0.3s;
 
+  &::part(native) {
+    &:hover {
+      color: var(--ion-color-success);
+      transition: color 0.3s;
+    }
+  }
+}
+
+.tab-selected {
+  --color-selected: var(--ion-color-success);
+  color: var(--color-selected);
+}

@@ -1,0 +1,95 @@
+<ion-header mode="ios">
+  <ion-toolbar class="home-toolbar">
+    <ion-img src="assets/img/1.jpg" class="avater" slot="start"> </ion-img>
+    <ion-label>Hi, Kira!</ion-label>
+    <ion-buttons slot="end">
+      <ion-button class="notifications">
+        <ion-icon name="notifications"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="heading ion-padding">
+    <h1>Tasks for today:</h1>
+    <div>
+      <ion-icon name="star"></ion-icon>
+      <ion-label>5 available</ion-label>
+    </div>
+  </div>
+
+  <div class="search-container ion-padding">
+    <ion-toolbar>
+      <ion-input class="search" type="search" placeholder="Search"></ion-input>
+      <ion-buttons slot="end">
+        <ion-button>
+          <ion-icon name="search-outline"></ion-icon>
+        </ion-button>
+      </ion-buttons>
+    </ion-toolbar>
+  </div>
+
+  <div class="ion-padding">
+    <div class="connection-heading">
+      <h3>Last connections</h3>
+      <span>See all</span>
+    </div>
+    <ion-row class="ion-justify-content-between ion-align-items-center">
+      <ion-col size="2">
+        <ion-img src="assets/img/2.jpg" class="avater"></ion-img>
+      </ion-col>
+      <ion-col size="2">
+        <ion-img src="assets/img/3.jpg" class="avater"></ion-img>
+      </ion-col>
+      <ion-col size="2">
+        <ion-img src="assets/img/4.jpg" class="avater"></ion-img>
+      </ion-col>
+      <ion-col size="2">
+        <ion-img src="assets/img/5.jpg" class="avater"></ion-img>
+      </ion-col>
+      <ion-col size="2">
+        <div class="col-count">
+          <span><b>+5</b></span>
+        </div>
+      </ion-col>
+    </ion-row>
+  </div>
+
+  <div class="active-project ion-padding">
+    <div class="heading">
+      <h3>Active projects</h3>
+      <span>See all</span>
+    </div>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <ion-label>Nomero 10</ion-label>
+          <ion-label slot="end">4h</ion-label>
+        </ion-card-subtitle>
+        <ion-card-title>
+          <h4>Blog and social post</h4>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-icon name="alert-circle-outline"></ion-icon>
+        <ion-label>Deadline is today</ion-label>
+      </ion-card-content>
+    </ion-card>
+    <ion-card>
+      <ion-card-header>
+        <ion-card-subtitle>
+          <ion-label>Grace Aroma</ion-label>
+          <ion-label slot="end">4h</ion-label>
+        </ion-card-subtitle>
+        <ion-card-title>
+          <h4>New capmain review</h4>
+        </ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-icon name="alert-circle-outline"></ion-icon>
+        <ion-label>Deadline is today</ion-label>
+      </ion-card-content>
+    </ion-card>
+  </div>
+</ion-content>

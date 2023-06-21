@@ -16,7 +16,7 @@
 @import "@ionic/angular/css/normalize.css";
 @import "@ionic/angular/css/structure.css";
 @import "@ionic/angular/css/typography.css";
-@import '@ionic/angular/css/display.css';
+@import "@ionic/angular/css/display.css";
 
 /* Optional CSS utils that can be commented out */
 @import "@ionic/angular/css/padding.css";
@@ -24,3 +24,42 @@
 @import "@ionic/angular/css/text-alignment.css";
 @import "@ionic/angular/css/text-transformation.css";
 @import "@ionic/angular/css/flex-utils.css";
+// @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+
+@font-face {
+  font-family: "Flamante Roman Medium";
+  src: url(./assets/font/Flamante-Roma-Medium.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6 {
+  font-family: "Flamante Roman Medium";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+h6,
+p,
+span {
+  --color: var(--ion-color-success);
+  color: var(--color);
+}
+
+* {
+  font-family: Raleway;
+}
+
+.fullscreen-modal::part(content) {
+  --width: 100%;
+  --height: 100%;
+}
